@@ -69,12 +69,12 @@ export default function RootLayout({
           }}
         />
       
-        <script dangerouslySetInnerHTML={{ __html: `window.__WIDGET_API_URL="http://localhost:3000";window.__PROJECT_ID="asante-sana-fisioterapia";` }} />
+        <script dangerouslySetInnerHTML={{ __html: `window.__WIDGET_API_URL="https://automatizacion-webs.vercel.app";window.__PROJECT_ID="asante-sana-fisioterapia";` }} />
 
         <script
-          src="http://localhost:3000/widget.js"
+          src="https://automatizacion-webs.vercel.app/widget.js"
           data-project-name="Asante sana fisioterapia & bienestar"
-          data-api-url="http://localhost:3000"
+          data-api-url="https://automatizacion-webs.vercel.app"
           data-project-id="asante-sana-fisioterapia"
           data-primary-color="#c7b7ab"
           defer
